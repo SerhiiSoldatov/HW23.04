@@ -2,3 +2,10 @@
 // из 8 элементов и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
+
+int []mass = new int[8];
+for (int i = 0; i < mass.Length; i++)
+{
+    mass[i] = new Random().Next(0,100);
+    System.Console.Write(mass[i] + " ");
+}
